@@ -1,0 +1,479 @@
+* {
+  font-family: "Metropolis", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  z-index: 10;
+  background: linear-gradient(to right, #fff 50%, #ffe6f0 50%);
+  border: none !important;
+  box-shadow: none !important;
+  font-weight: 600;
+  padding: 15px 20px;
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #333;
+  font-size: 14px;
+}
+
+.menu {
+  display: flex; /* Menjadikan menu dalam barisan horizontal */
+  gap: 10px; /* Mengatur jarak antar item menu */
+  margin-left: 100px; /* Menyelaraskan menu agar lebih dekat ke logo */
+}
+
+.search {
+  margin-left: 10rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.logo img {
+  max-width: 100px; /* Atur ukuran logo */
+  margin-left: 2rem;
+}
+
+.menu a {
+  text-decoration: none; /* Menghilangkan garis bawah pada link */
+  color: #000; /* Atur warna link */
+}
+
+/* First Section */
+
+/* Left Section - White */
+.dashboard-wrapper {
+  margin-bottom: 4rem;
+}
+.left-col {
+  background-color: #fff; /* Warna background putih */
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.row h1 {
+  font-size: 63px;
+  font-weight: 900;
+  line-height: 68px;
+  margin-bottom: 10px;
+}
+
+.row p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 20px;
+}
+
+.buttons a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff007f;
+  border-radius: 2.5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.buttons a.secondary {
+  background-color: #fff;
+  color: #ff007f;
+  border: 2px solid #ff007f;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 10rem;
+}
+
+.info-box i {
+  color: #ff007f; /* Pink color for the phone icon */
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.info-box p {
+  margin: 0; /* Remove default margin from <p> */
+  font-size: medium;
+  font-weight: bold;
+  color: #000;
+}
+
+.divider {
+  border-left: 1px solid #b6afaf;
+  height: 20px;
+  margin: 0 10px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons .fa-facebook {
+  color: #1877f2;
+} /* Facebook blue */
+.social-icons .fa-youtube {
+  color: #ff0000;
+} /* YouTube red */
+.social-icons .fa-linkedin {
+  color: #0077b5;
+} /* LinkedIn blue */
+.social-icons .fa-instagram {
+  color: #ff007f;
+  font-weight: 600;
+} /* Instagram pink */
+
+/* Right Section */
+.right-col {
+  background: linear-gradient(to bottom, #ffe6f0 80%, #ffffff 20%);
+  /* background-color: #ffe6f0; /* Warna background pink */
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.family-img {
+  width: 750px; /* Menjaga gambar dalam skala proporsional */
+  height: auto;
+  transform: scaleX(-1);
+  margin-right: 150px;
+}
+
+.icon-box {
+  position: absolute;
+  background-color: #fff;
+  padding: 15px 35px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.car-loan {
+  text-align: center;
+  top: 20%;
+  left: 44%;
+}
+
+.car-loan span {
+  margin-left: 20px;
+  font-weight: 700;
+}
+.home-loan {
+  bottom: 50%;
+  left: 80%;
+}
+
+.home-loan span {
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+/* Second Section */
+.wrapper {
+  background-color: #fff;
+}
+.customer-experience-wrapper {
+  background-color: #fff !important;
+  margin-top: 4rem;
+}
+
+.container-2 {
+  background-color: #fff !important;
+  padding: 5rem;
+}
+
+.row-wrapper {
+  background-color: #fff;
+}
+
+.text-title {
+  padding: 2px;
+  text-align: center;
+  justify-content: center;
+}
+
+.text-title h1 {
+  font-size: 36px;
+}
+
+.text-title p {
+  width: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #7a7676;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.exp-title {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.exp-title p {
+  color: #7a7676;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Section 3 - Business Partners*/
+
+.partners-section {
+  background-color: rgba(254, 249, 252, 1);
+  height: 400px;
+}
+
+.text-title-second {
+  padding: 1px;
+}
+
+.text-title-second h3 {
+  color: #2b2929;
+  font-size: 23px;
+  padding: 4rem;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  letter-spacing: 2.1px;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-top: none;
+  border-bottom: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-indicators {
+  bottom: -85px;
+}
+
+.carousel-indicators button.active {
+  background-color: #ff007f; /* warna bullet aktif */
+}
+
+/* <!-- Section 4 IPDC AT A GLANCE --> */
+.container-right {
+  width: 90%;
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+
+.container-right h4 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.container-right p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 70%;
+  color: rgba(103, 103, 103, 1);
+}
+
+.read-more-container {
+  text-align: center;
+  width: 50%;
+}
+
+.read-more-button {
+  background-color: transparent;
+  font-size: 19.5px;
+  font-weight: 500;
+  border: none; /* Border berwarna pink */
+  color: rgba(237, 1, 127, 1); /* Teks berwarna pink */
+  padding: 6px 2px; /* Padding */
+  font-size: 16px; /* Ukuran font */
+  cursor: pointer; /* Menunjukkan pointer saat hover */
+  display: flex; /* Untuk menyelaraskan ikon dan teks */
+  align-items: center; /* Memusatkan secara vertikal */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Animasi transisi */
+}
+
+.read-more-button i {
+  margin-left: 8px; /* Jarak antara teks dan ikon */
+}
+
+/* Section Images */
+.our-services-wrapper {
+  background-color: rgba(254, 249, 252, 1);
+}
+.text-title-images {
+  padding: 2px;
+  text-align: center;
+  justify-content: center;
+}
+
+.text-title-images h1 {
+  font-size: 36px;
+  margin-top: 4rem;
+}
+
+.text-title-images p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7a7676;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.col-container {
+  background-color: rgba(254, 249, 252, 1);
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 20px;
+}
+.card img {
+  border-radius: 10px;
+  height: 400px;
+  object-fit: cover;
+}
+.card-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.arrow-icon i {
+  font-size: 20px;
+  color: #ff007f; /* Customize arrow color */
+  background-color: rgba(252, 224, 239, 1);
+  border-radius: 10px;
+}
+
+/* Newsletter and Footer */
+/* Newsletter Section */
+.newsletter-section {
+  background-color: #fff5f8;
+  padding: 60px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.newsletter-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.newsletter-section p {
+  width: 40%;
+  margin-left: 20rem;
+  font-size: 16px;
+  color: #7a7676;
+  letter-spacing: 1px;
+}
+
+.newsletter-form {
+  display: inline-flex;
+  margin-top: 20px;
+}
+
+.email-input {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.subscribe-btn {
+  background-color: #ff007f;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.subscribe-btn:hover {
+  background-color: #ff3399;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  font-size: 14px;
+  color: rgba(103, 103, 103, 1);
+  margin-bottom: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.footer-col .social-icons a {
+  margin-right: 10px;
+  color: #555;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #ff007f;
+}
+
+.phone-contact {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end; /* Atur posisi ke kiri */
+}
+
+.phone-contact i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #ff007f;
+}
