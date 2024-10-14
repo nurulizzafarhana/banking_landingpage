@@ -4,10 +4,11 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 .navbar {
-  z-index: 10;
+  z-index: 5;
   background: linear-gradient(to right, #fff 50%, #ffe6f0 50%);
   border: none !important;
   box-shadow: none !important;
@@ -25,12 +26,11 @@ body {
 
 .menu {
   display: flex;
-  gap: 10px;
-  margin-left: 100px;
+  gap: 80px;
 }
 
 .search {
-  margin-left: 10rem;
+  margin-left: 1rem;
   text-decoration: none;
   color: #000;
 }
