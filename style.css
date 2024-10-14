@@ -24,9 +24,9 @@ body {
 }
 
 .menu {
-  display: flex; /* Menjadikan menu dalam barisan horizontal */
-  gap: 10px; /* Mengatur jarak antar item menu */
-  margin-left: 100px; /* Menyelaraskan menu agar lebih dekat ke logo */
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
 }
 
 .search {
@@ -36,13 +36,13 @@ body {
 }
 
 .logo img {
-  max-width: 100px; /* Atur ukuran logo */
+  max-width: 100px;
   margin-left: 2rem;
 }
 
 .menu a {
-  text-decoration: none; /* Menghilangkan garis bawah pada link */
-  color: #000; /* Atur warna link */
+  text-decoration: none;
+  color: #000;
 }
 
 /* First Section */
@@ -265,6 +265,7 @@ body {
   border-radius: 50%;
   width: 10px;
   height: 10px;
+  background-color: #555;
 }
 
 .carousel-indicators {
@@ -303,14 +304,14 @@ body {
   background-color: transparent;
   font-size: 19.5px;
   font-weight: 500;
-  border: none; /* Border berwarna pink */
-  color: rgba(237, 1, 127, 1); /* Teks berwarna pink */
-  padding: 6px 2px; /* Padding */
-  font-size: 16px; /* Ukuran font */
-  cursor: pointer; /* Menunjukkan pointer saat hover */
-  display: flex; /* Untuk menyelaraskan ikon dan teks */
-  align-items: center; /* Memusatkan secara vertikal */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Animasi transisi */
+  border: none;
+  color: rgba(237, 1, 127, 1);
+  padding: 6px 2px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .read-more-button i {
@@ -469,7 +470,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   display: flex;
-  justify-content: flex-end; /* Atur posisi ke kiri */
+  justify-content: flex-end;
 }
 
 .phone-contact i {
